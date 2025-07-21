@@ -11,7 +11,7 @@ API.interceptors.request.use((req) => {
   if (token) {
     req.headers.Authorization = `Bearer ${token}`;
   }
-
+const TMDB_API_KEY = import.meta.env.VITE_TMDB_API_KEY;
   return req;
 });
 
