@@ -15,9 +15,6 @@ API.interceptors.request.use((req) => {
   return req;
 });
 
-const TMDB_API_KEY = "966951f8abca33ce7a88763555eb6340";
-VITE_BACKEND_URL="https://dimoviesplato.onrender.com/api"
-
 (async () => {
   try {
     const res = await axios.get(
