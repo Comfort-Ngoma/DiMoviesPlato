@@ -54,7 +54,7 @@ Run backend server:
 
 Create .env with:
 
-- VITE_BACKEND_URL=http://localhost:5000/api
+- VITE_BACKEND_URL=the_backend_url
 - VITE_TMDB_API_KEY=the_tmdb_api_key
 
 Run frontend:
